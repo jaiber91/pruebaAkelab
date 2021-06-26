@@ -13,5 +13,7 @@ Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 
 ## db.json
 Para convertir el Json de las peliculas en una "API" use un paquete llamado Json-Server. 
-Para correrlo se debe usar ### `npm run server` y abre en el puerto 3000 Open [http://localhost:3000](http://localhost:3000) 
+Para correrlo se debe usar:
+### `npm run server` 
+y abre en el puerto 3000 Open [http://localhost:3000](http://localhost:3000) 
 
