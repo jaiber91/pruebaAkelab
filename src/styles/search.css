@@ -1,0 +1,43 @@
+.blockSearch{
+    display: flex;
+}
+.blockSearch-Search{
+    position:relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 366px;
+    height: 40px;
+    border: 0.5px solid #BCBCBC;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+}
+.blockSearch-Search--lupa{
+   position: absolute;
+    left: 26%;
+     top: 19%;
+}
+
+.blockSearch-line{
+    width: 0.5px;
+    height: 41px;
+    background: #C4C4C4;
+    margin: 0 10px 5px 10px;
+    }
+.blockSearch-filter{
+    margin: 12px 10px 0 10px
+}
+.blockSearch-order{
+    position: relative;
+    padding-top: 5px;
+}
+.blockSearch-order img{
+    position: absolute;
+    margin: 3px 0px 0px 10px;
+}
+.blockSearch-order a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6D6E70;
+    
+}

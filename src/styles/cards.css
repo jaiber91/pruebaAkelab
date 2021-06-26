@@ -1,0 +1,44 @@
+.allCards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    margin: 40px 0px 0px 0px;
+}
+.allCards-info{
+    Width: 450px;
+    Height: 345px;
+    background: #FFFFFF;
+    border: 1.5px solid #4F4F4F;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    position: relative;
+}
+.allCards-info h2{
+    margin: 10px 0px 0px 10px;
+}
+.allCards-info img{
+    height: 270px;
+    width: 180px;
+    margin: 20px 0px 0px 10px;
+}
+.allCards-info--text{
+    position: absolute;
+    text-align: justify;
+    font-size: 12px;
+    top: 20%;
+    left: 50%;
+    right: 5%;
+}
+.allCards-info--details{
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    right: 5%;
+    background-color: #FFFFFF;
+}
+.allCards-info--details p{
+    margin: 0px;
+    font-size: 12px;
+    line-height: 17px;
+}
